@@ -32,7 +32,7 @@ function App() {
     function handleSubmitIp(event) {
         event.preventDefault();
 
-		axios.get("https://geo.ipify.org/api/v1?apiKey=at_gG7YUVyqwygWHBIIQeRPM9LvBzj4U")
+		axios.get("https://geo.ipify.org/api/v1?apiKey=")
 		.then((res) => {
 			setIp(res.data);
 			console.log(res.data);
