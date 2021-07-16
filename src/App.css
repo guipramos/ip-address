@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+}
+
+.main{
+	position: relative;
+}
+
+.container{
+	width: 100%;
+	max-width: 1440px;
+	display: block;
+	margin: 0 auto;
+}
+
+.header-banner{
+	background-image: url('../src/assets/img/pattern-bg.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 250px;
+}
+
+.header-banner .titulo{
+	text-align: center;
+	color: #fff;
+	font-size: 45px;
+	font-weight: 500;
+	padding: 36px 0 0;
+}

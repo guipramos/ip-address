@@ -1,0 +1,42 @@
+.gr-form-ip {
+    display: flex;
+    justify-content: center;
+    padding: 36px 0 48px;
+}
+
+.gr-form-ip input{
+    width: 35%;
+    height: 60px;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.gr-form-ip input::placeholder{
+    font-size: 18px;
+    color: hsl(0, 0%, 68%);
+}
+
+.gr-form-ip .gr-button {
+    background-color: #000;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 0 15px 15px 0;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.gr-form-ip .gr-button:hover {
+    opacity: 0.8;
+}
+
+@media(max-width: 991px){
+    .gr-form-ip {
+        padding: 15px 13px 48px;
+    }
+    .gr-form-ip input {
+        width: 100%;
+    }
+}
