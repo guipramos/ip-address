@@ -10,6 +10,8 @@ const initialValue = {
     Valor: '',
 }
 
+const API_KEY =`${process.env.REACT_APP_API_KEY_YT}`
+
 function App() {
 
 	const [valueIp, setIp] = useState(initialValue);
@@ -32,7 +34,8 @@ function App() {
     function handleSubmitIp(event) {
         event.preventDefault();
 
-		axios.get("https://geo.ipify.org/api/v1?apiKey=")
+
+		axios.get(`https://geo.ipify.org/api/v1?apiKey=${API_KEY}`)
 		.then((res) => {
 			setIp(res.data);
 			console.log(res.data);

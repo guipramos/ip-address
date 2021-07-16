@@ -10,15 +10,15 @@ export function BarraInfo({ info }){
             </div>
             <div className="gr-titulo gr-location">
                 <span>LOCATION</span>
-                <span>{info.location.region}, {info.location.country}</span>
+                {/* <span>{info.location.region}, {info.location.country}</span> */}
             </div>
             <div className="gr-titulo gr-timezone">
                 <span>TIMEZONE</span>
-                <span>{info.location.timezone}</span>
+                {/* <span>{info.location.timezone}</span> */}
             </div>
             <div className="gr-titulo gr-isp">
                 <span>ISP</span>
-                <span>{info.isp}</span>
+                {/* <span>{info.isp}</span> */}
             </div>
         </div>
     );
