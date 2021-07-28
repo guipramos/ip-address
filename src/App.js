@@ -20,7 +20,7 @@ function App() {
         event.preventDefault();
 
         // Name: É o name que damos como atributo no input
-        // Value: É o valor que digitamos no input
+        // Value: É o valor que digitamos no input..
 
         const {name, value} = event.target;
 
