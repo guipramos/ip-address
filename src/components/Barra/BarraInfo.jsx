@@ -12,11 +12,11 @@ export function BarraInfo({ info }){
             </div>
             <div className="gr-titulo gr-location">
                 <strong>LOCATION</strong>
-                {/* <span>{info.ip.location.region},</span> */}
+                <span>{info.ip.location.region}</span>
             </div>
             <div className="gr-titulo gr-timezone">
                 <strong>TIMEZONE</strong>
-                {/* <span>{info.location.timezone}</span> */}
+                <span>{info.location.timezone}</span>
             </div>
             <div className="gr-titulo gr-isp">
                 <strong>ISP</strong>
