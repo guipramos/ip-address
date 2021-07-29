@@ -2,8 +2,15 @@ import React from 'react';
 import './estilo.css';
 
 export function BarraInfo({ info }){
+    // const initialValue = {
+    //     ip: info.ip,
+    //     regiao: info.location,
+    //     // fusoHorario: info.location.timezone,
+    //     internet: info.isp,
+    // }
 
-    // console.log("Api: ", info.location.region);
+    // console.log("Api: ", initialValue);
+
     return (
         <div className="gr-barra-info">
             <div className="gr-titulo gr-ip">
@@ -12,7 +19,7 @@ export function BarraInfo({ info }){
             </div>
             <div className="gr-titulo gr-location">
                 <strong>LOCATION</strong>
-                <span>{info.ip.location.region}</span>
+                <span>{info.location.region}</span>
             </div>
             <div className="gr-titulo gr-timezone">
                 <strong>TIMEZONE</strong>
